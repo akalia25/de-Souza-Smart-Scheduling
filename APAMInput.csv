@@ -1,0 +1,9 @@
+﻿course_id,course,course_code,course_starts,course_ends,course_length,credit,learning_hours,cost,cost_canada,cost_intl,maximum_capacity,coure_code_enrolment,course_enrolment,revenue,minimum_enrolment,on_demand,on_demand_duration,Month_Diff
+530,APAM03,APAM,201602,201604,63,0.5,24,349,349,349,25,10,,,,,,1
+552,APAM01,APAM,201605,201607,63,0.5,24,349,349,349,25,10,,,,,,4
+595,APAM02,APAM,201609,201611,62,0.5,24,349,349,349,25,16,,,,,,8
+630,APAM03,APAM,201701,201704,63,0.5,24,349,349,349,25,23,,,,,,12
+650,APAM01,APAM,201705,201707,63,0.5,24,349,349,349,25,24,,,,,,16
+675,APAM02,APAM,201709,201711,62,0.5,24,349,349,349,25,30,,,,,,20
+676,APAM03,APAM,201801,201804,63,0.5,24,349,349,349,20,16,,,,,,24
+677,APAM01,APAM,201805,201807,63,0.5,24,349,349,349,20,5,,,,,,28
