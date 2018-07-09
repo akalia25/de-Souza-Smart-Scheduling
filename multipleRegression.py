@@ -92,7 +92,7 @@ print('R2 = %.2f' % regr.score(data,CV))
 
 
 #ploynomial OF 2
-
+#https://www.youtube.com/watch?v=EvnpoUTXA0E
 
 
 
@@ -153,7 +153,7 @@ print("Mean residual sum of squares = %.2f"
 print('R2 = %.2f' % regr.score(X_transform,CV))
 
 
-
+#run degree with 7
 data = dataset.Month_Diff[:,None]
 # =============================================================================
 # print(data)
@@ -165,7 +165,7 @@ CV = dataset.coure_code_enrolment
 regr = LinearRegression()
 
 # pass the order of your polynomial here  
-poly = PolynomialFeatures(degree=2, include_bias=False)
+poly = PolynomialFeatures(degree=7, include_bias=False)
 
 # convert to be used further to linear regression
 X_transform = poly.fit_transform(data)
@@ -184,7 +184,7 @@ plt.show()
 
 print("Ploynomial Linear Regression Results:")
 # The coefficients (m, b) of y = mx + b
-print('Coefficients (X, X^2): \n', regr.coef_)
+print('Coefficients (X, X^2...X^7): \n', regr.coef_)
 print('Intercept (b): \n', regr.intercept_)
 
 print("Mean residual sum of squares = %.2f"
