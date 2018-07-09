@@ -16,3 +16,5 @@ Created on Sun Jul  8 00:29:11 2018
 
 #theory
 #https://stackoverflow.com/questions/31093857/what-is-the-best-model-to-predict-date-type
+
+
