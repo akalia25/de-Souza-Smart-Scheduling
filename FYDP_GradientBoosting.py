@@ -50,7 +50,7 @@ df.drop(['course_id'], axis = 1)
 # Now we have to split the datasets into training and validation. The training
 # data will be used to generate the trees that will constitute the final
 # averaged model.
-
+#hi
 import random
 
 # encode string class values as integers
