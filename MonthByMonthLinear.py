@@ -22,6 +22,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import *
 
 dataset = pd.read_csv('ccmctest.csv')
+f = open('csvfile.csv','w')
 #dataset = pd.read_csv('FONPInput.csv')
 #dataset = pd.read_csv('APAMInput.csv')
 #dataset.course_starts=str(dataset.course_starts-d)
@@ -48,24 +49,52 @@ regr.fit(data, CV)
 # get the predictions on the training data
 predicted_results = regr.predict(data)
 
-i=24
-for i in range (24,36):
+
+
+k = 0
+while k < len(data):
+    temp=data[k]
+    temp=temp.reshape(-1, 1)
+    results1= regr.predict(temp)
+    f.write(str(temp))
+    f.write(',')
+    f.write(str(results1))
+    f.write('\n')
+    
+    k += 1
+
+
+
+## Python will convert \n to os.linesep
+
+i=data[-1]+12
+i=i.reshape(-1, 1)
+print(i)
+j=1
+while j<3:
        results= regr.predict(i)
-       print(i,results)
-       i=i+1
+       f.write(str(i))
+       f.write(',')
+       f.write(str(results))
+       f.write('\n')
+       i=i+12
+       j=j+1
+       
+f.close()
 
-
-print("Simple Linear Regression Results:")
-# The coefficients (m, b) of y = mx + b
-print('Coefficients (m1, m2): \n', regr.coef_)
-print('Intercept (b): \n', regr.intercept_)
-
-print("Mean residual sum of squares = %.2f"
-      % np.mean((regr.predict(data) - CV) ** 2))
-print('R2 = %.2f' % regr.score(data,CV))
-
-plt.plot(data, predicted_results, color='green', linewidth=3)
-plt.scatter(data, CV, color='black')
-plt.xlabel("Month Diff to 2016-01-01")
-plt.ylabel("Enrolment")
-plt.show()
+# =============================================================================
+# print("Simple Linear Regression Results:")
+# # The coefficients (m, b) of y = mx + b
+# print('Coefficients (m1, m2): \n', regr.coef_)
+# print('Intercept (b): \n', regr.intercept_)
+# 
+# print("Mean residual sum of squares = %.2f"
+#       % np.mean((regr.predict(data) - CV) ** 2))
+# print('R2 = %.2f' % regr.score(data,CV))
+# 
+# plt.plot(data, predicted_results, color='green', linewidth=3)
+# plt.scatter(data, CV, color='black')
+# plt.xlabel("Month Diff to 2016-01-01")
+# plt.ylabel("Enrolment")
+# plt.show()
+# =============================================================================
