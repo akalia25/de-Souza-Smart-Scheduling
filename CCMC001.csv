@@ -1,0 +1,8 @@
+﻿course_id,course,course_code,course_starts,course_ends,course_length,credit,learning_hours,cost,cost_canada,cost_intl,maximum_capacity,coure_code_enrolment,course_enrolment,revenue,minimum_enrolment,on_demand,on_demand_duration,Month_Diff
+556,CCMC01,CCMC,201605,201607,63,0,5,113,113,113,700,95,,,,,,4
+565,CCMC01,CCMC,201607,201609,63,0,5,113,113,113,700,135,,,,,,6
+615,CCMC01,CCMC,201608,201610,56,0,5,113,113,113,700,89,,,,,,7
+661,CCMC01,CCMC,201705,201706,56,0,5,113,113,113,700,92,,,,,,16
+693,CCMC01,CCMC,201705,201707,56,0,5,113,113,113,700,60,,,,,,16
+694,CCMC01,CCMC,201707,201708,56,0,5,113,113,113,700,108,,,,,,18
+695,CCMC01,CCMC,201708,201710,56,0,5,113,113,113,700,119,,,,,,19
