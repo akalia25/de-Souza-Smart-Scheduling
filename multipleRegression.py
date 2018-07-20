@@ -21,7 +21,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import *
 
-dataset = pd.read_csv('ccmctest.csv')
+dataset = pd.read_csv('CCMCInput.csv')
 #dataset = pd.read_csv('FONPInput.csv')
 #dataset = pd.read_csv('APAMInput.csv')
 #dataset.course_starts=str(dataset.course_starts-d)
