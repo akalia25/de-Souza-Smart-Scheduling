@@ -21,26 +21,28 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import *
 
-dataset = pd.read_csv('ccmctest.csv')
-f = open('csvfile.csv','w')
+dataset = pd.read_csv('CCMC03mar.csv')
+f = open('CCMC03marpredict.csv','w')
 #dataset = pd.read_csv('FONPInput.csv')
 #dataset = pd.read_csv('APAMInput.csv')
 #dataset.course_starts=str(dataset.course_starts-d)
 
 #print(dataset)
 
-#draw data set
-plt.figure(1)
-plt.title('Course CCMC')
-plt.scatter(dataset.Month_Diff,dataset.coure_code_enrolment,  color='blue')
-plt.xlabel("Month Diff to 2016-01-01")
-plt.ylabel("Enrolment")
-plt.show()
+# =============================================================================
+# #draw data set
+# plt.figure(1)
+# plt.title('Course CCMC')
+# plt.scatter(dataset.Month_Diff,dataset.coure_code_enrolment,  color='blue')
+# plt.xlabel("Month Diff to 2016-01-01")
+# plt.ylabel("Enrolment")
+# plt.show()
+# =============================================================================
 
 
 #Single Linear Regression
 data = dataset.Month_Diff.values.reshape((len(dataset.Month_Diff), 1))
-CV = dataset.coure_code_enrolment.values.reshape((len(dataset.coure_code_enrolment), 1))
+CV = dataset.Enrol_Num.values.reshape((len(dataset.Enrol_Num), 1))
 # Create linear regression object
 regr = linear_model.LinearRegression()
 # Train the model using the training sets
