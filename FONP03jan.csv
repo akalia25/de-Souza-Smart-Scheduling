@@ -1,0 +1,4 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+534,74,FONP03,FONP,0,\N,JAN,2016,0,\N,0.75,40,399,500,0,12
+636,14,FONP03,FONP,0,\N,JAN,2017,0,\N,0.75,40,399,500,0,24
+720,100,FONP03,FONP,0,\N,JAN,2018,0,\N,0.75,40,399,500,0,36

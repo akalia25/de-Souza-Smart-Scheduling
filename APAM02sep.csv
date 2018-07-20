@@ -1,0 +1,5 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+508,14,APAM02,APAM,0,\N,SEP,2015,15,\N,0.5,24,349,25,0,9
+595,16,APAM02,APAM,0,\N,SEP,2016,15,\N,0.5,24,349,25,0,21
+675,30,APAM02,APAM,0,\N,SEP,2017,15,\N,0.5,24,349,25,0,33
+755,2,APAM02,APAM,0,\N,SEP,2018,15,\N,0.5,24,349,20,0,45

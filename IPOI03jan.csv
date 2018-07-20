@@ -1,0 +1,4 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+550,7,IPOI03,IPOI,0,\N,JAN,2016,6,\N,1,48,499,10,0,12
+623,18,IPOI03,IPOI,0,\N,JAN,2017,6,\N,1,48,499,12,0,24
+723,17,IPOI03,IPOI,0,\N,JAN,2018,6,\N,1,48,499,12,0,36

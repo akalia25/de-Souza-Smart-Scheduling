@@ -1,0 +1,4 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+528,10,PTED03,PTED,0,\N,JAN,2016,15,\N,0.25,10,249,50,0,12
+607,13,PTED03,PTED,0,\N,JAN,2017,15,\N,0.25,10,249,50,0,24
+721,9,PTED03,PTED,0,\N,JAN,2018,15,\N,0.25,10,249,50,0,36

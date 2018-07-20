@@ -1,0 +1,5 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+486,344,CCMC02,CCMC,0,\N,OCT,2015,0,"[""CHEM"",""ONSC"",""PSCB""]",0,5,0,700,0,10
+604,309,CCMC02,CCMC,0,\N,OCT,2016,0,"[""CHEM"",""ONSC"",""PSCB""]",0,5,113,700,0,22
+696,158,CCMC02,CCMC,0,\N,OCT,2017,0,"[""CHEM"",""ONSC"",""PSCB""]",0,5,113,700,0,34
+781,2,CCMC02,CCMC,0,\N,OCT,2018,0,"[""CHEM"",""ONSC"",""PSCB""]",0,5,113,700,0,46
