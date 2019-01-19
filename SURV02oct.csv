@@ -1,0 +1,5 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+510,6,SURV02,SURV,0,\N,OCT,2015,15,\N,0.5,25,349,20,0,10
+603,3,SURV02,SURV,0,\N,OCT,2016,15,\N,0.5,25,349,20,0,22
+672,27,SURV02,SURV,0,\N,OCT,2017,15,\N,0.5,25,349,20,0,34
+754,9,SURV02,SURV,0,\N,OCT,2018,15,\N,0.5,25,349,20,0,46

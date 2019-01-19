@@ -48,6 +48,13 @@ regr.fit(data, CV)
 # get the predictions on the training data
 predicted_results = regr.predict(data)
 
+i=24
+for i in range (24,36):
+       results= regr.predict(i)
+       print(i,results)
+       i=i+1
+
+
 print("Simple Linear Regression Results:")
 # The coefficients (m, b) of y = mx + b
 print('Coefficients (m1, m2): \n', regr.coef_)
@@ -138,6 +145,17 @@ regr.fit(X_transform,CV)
 # get the predictions on the training data
 predicted_results = regr.predict(X_transform)
 
+#predict future results
+i=24
+for i in range (24,36):
+    # pass the order of your polynomial here  
+    poly = PolynomialFeatures(degree=2, include_bias=False)
+    # convert to be used further to linear regression
+    X_transform2 = poly.fit_transform(i)
+    results= regr.predict(X_transform2)
+    print(i,results)
+    i=i+1
+
 plt.plot(data, predicted_results, color='red', linewidth=3)
 plt.scatter(data, CV, color='blue')
 plt.xlabel("Month Diff to 2016-01-01")
@@ -174,7 +192,7 @@ CV = dataset.coure_code_enrolment
 regr = LinearRegression()
 
 # pass the order of your polynomial here  
-poly = PolynomialFeatures(degree=7, include_bias=False)
+poly = PolynomialFeatures(degree=6, include_bias=False)
 
 # convert to be used further to linear regression
 X_transform = poly.fit_transform(data)
@@ -184,6 +202,17 @@ regr.fit(X_transform,CV)
 
 # get the predictions on the training data
 predicted_results = regr.predict(X_transform)
+
+#predict future results
+i=24
+for i in range (24,36):
+    # pass the order of your polynomial here  
+    poly = PolynomialFeatures(degree=6, include_bias=False)
+    # convert to be used further to linear regression
+    X_transform3 = poly.fit_transform(i)
+    results= regr.predict(X_transform3)
+    print(i,results)
+    i=i+1
 
 plt.plot(data, predicted_results, color='red', linewidth=3)
 plt.scatter(data, CV, color='blue')
@@ -234,3 +263,6 @@ for i in range (0,5):
 # print(estimated_results)
 # https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49
 # =============================================================================
+
+
+

@@ -1,0 +1,5 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+445,1,IHPC03,IHPC,0,\N,APR,2015,15,\N,0.25,10,113,50,0,4
+543,14,IHPC03,IHPC,0,\N,APR,2016,15,\N,0.25,10,299,50,0,16
+643,18,IHPC03,IHPC,0,\N,APR,2017,15,\N,0.25,10,299,50,0,28
+757,6,IHPC03,IHPC,0,\N,APR,2018,15,\N,0.25,10,299,50,0,40

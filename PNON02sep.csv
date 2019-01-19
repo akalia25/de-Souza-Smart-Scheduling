@@ -1,0 +1,5 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+495,18,PNON02,PNON,0,\N,SEP,2015,15,\N,0.5,28,349,50,0,9
+598,22,PNON02,PNON,0,\N,SEP,2016,15,\N,0.5,28,349,50,0,21
+705,10,PNON02,PNON,0,\N,SEP,2017,15,\N,0.5,28,349,50,0,33
+763,7,PNON02,PNON,0,\N,SEP,2018,15,\N,0.5,28,349,50,0,45

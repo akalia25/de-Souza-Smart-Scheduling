@@ -1,0 +1,4 @@
+﻿course_id,Enrol_Num,Course_name,course_code,on_demand,on_demand_duration,Month,Year,Minimum_Enrolment,prerequisite_course_code,credit,learning_hours,course_fee,maximum_capacity,is_external,Month_Diff
+526,115,PSCB03,PSCB,0,\N,JAN,2016,0,\N,1,35,499,170,0,12
+624,122,PSCB03,PSCB,0,\N,JAN,2017,0,\N,1,35,499,170,0,24
+711,136,PSCB03,PSCB,0,\N,JAN,2018,0,\N,1,35,499,120,0,36
